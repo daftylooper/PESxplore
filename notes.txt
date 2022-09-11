@@ -1,0 +1,28 @@
+STUFF ->
+
+if navbar focused, remove magnifying glass(visibility)
+
+dark background
+white and a match bright color for text
+and a darker grey matching color for other text
+
+FUTURE ->
+
+Use React components for everything( proceed with this in mind )
+    Routing - curate tutorial for these niche and basic stuff
+    Componentizing code
+
+DESIGN IDEAS ->
+
+wavy designs in the background of same color with varying darkness+lightness
+block colorize the word 'pes', invert text( matching background )
+use layered waves as design - https://app.haikei.app/
+
+a line circling the menu option when hovered
+
+
+NEEDS ->
+
+convert all numbers to percentages to accomdate for small change sizes window size
+
+needs to be responsive(different CSS styles(sizes) for different device sizes)

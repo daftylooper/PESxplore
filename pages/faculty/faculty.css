@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+    background: rgb(3, 17, 45);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(182, 216, 255);
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    align-items: center;
+}
+
+.navbar-right > div {
+    margin-left: 80px;
+}
+
+.faculty > a {
+    color:rgb(3, 17, 45);
+    border-radius: 5px;
+}
+
+.navbar-right > div:not(.faculty) > a {
+    color: rgb(182, 216, 255);
+    text-decoration: none;
+}
+
+.faculty > a {
+    color:rgb(3, 17, 45);
+    background: rgb(182, 216, 255);
+    text-decoration: none;
+    padding: 5px 6px 5px 5px;
+    border-radius: 5px;
+}
+
+.navbar-right > div:hover {
+    text-decoration: underline;
+}
+                
+.navbar-left > img {
+    width: 75px;
+    height: 75px;
+}
+
+.home > a > img {
+    width: 30px;
+    height: 30px;
+}

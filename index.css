@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+    background: rgb(3, 17, 45);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(182, 216, 255);
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    align-items: center;
+}
+
+.navbar-right > div {
+    margin-left: 80px;
+}
+
+.navbar-right > div > a {
+    color: rgb(182, 216, 255);
+    text-decoration: none;
+}
+
+.navbar-right > div:hover {
+    text-decoration: underline;
+}
+                
+.navbar-left > img {
+    width: 75px;
+    height: 75px;
+}
+
+.home > a > img {
+    width: 30px;
+    height: 30px;
+}
+
+.big-text-1 {
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    font-size: 72px;
+    width: 1000px;
+    color: rgb(182, 216, 255);
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    top: 350px;
+    left: 300px;
+}
+
+.search-bar{
+    font-size: 24px;
+    width: 500px;
+    margin-left: 35px;
+    text-indent: 10px;
+    text-align: center;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+}
+
+.search-icon{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 470px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.wave-2{
+    position: absolute;
+    left: 0;
+    width: 1300px;
+    height: 900px;
+    bottom: 0%;
+    z-index: -1;
+}
