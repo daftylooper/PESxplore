@@ -302,3 +302,39 @@ hr{
   height: 35px;
   background: white;
 }
+
+.footer-content{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.footer-logo > img {
+  width: 100px;
+  height: 100px;
+  padding-left: 10%;
+}
+
+.footer-content > div {
+  margin: 0% 10% 0% 0%;
+}
+
+.footer{
+  position: absolute;
+  top: 410%;
+}
+
+.footer-socials{
+  display: flex;
+  flex-direction: row;
+}
+
+.dataS{
+  position: absolute;
+  top: 130%;
+  display:flex;
+  flex-direction:row;
+  color:#61dafb;
+  padding-bottom:5%;  
+  left:10%;  
+}
