@@ -16,6 +16,10 @@
   font-size: 20px;
 }
 
+.inputStyle:clicked{
+  border: "2px solid white"
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -33,10 +37,36 @@
   opacity:50%;
 }
 
+.facultyLink{
+  color:rgb(152, 198, 251);
+  text-decoration: none;
+}
+
+.facultyLink:visited{
+  color:rgb(152, 198, 251);
+}
+
+.navigateLink{
+  color:rgb(152, 198, 251);
+  text-decoration: none;
+}
+
+.navigateLink:visited{
+  color:rgb(152, 198, 251);
+}
+
+.forumsLink{
+  color:rgb(152, 198, 251);
+  text-decoration: none;
+}
+
+.forumsLink:visited{
+  color:rgb(152, 198, 251);
+}
+
 .meet:hover{
   text-decoration-line: underline;
   cursor: pointer;
-  box-shadow: 0px 0px 20px#61dafb inset ;
 }
 .parent{
   display:flex;
@@ -100,13 +130,6 @@
   right:10%;
 }
 
-hr{
-  border:none;
-  border-top: #61dafb 10px dotted;
-  width:10%;
-  margin:auto;
-}
-
 .fac-img:hover{
   transform: rotate(3deg);
 }
@@ -114,11 +137,6 @@ hr{
 .fac-img{
   background-color: rgb(21, 21, 69);
   box-shadow: 0px 0px 70px #61dafb;
-}
-
-.f-l1, .f-l2{
-  margin-top:7%;
-  line-height: 150%;
 }
 
 .facslide:hover{
@@ -145,24 +163,23 @@ transition: background-color .3s ease-in-out
 }
 
 .meet{
-  width:30%;
+
   background-color:#0a1a39;
   text-decoration: none;
   color:#61dafb;
-  border-color: #61dafb;
+  border: 1px solid #61dafb;
   margin-top:8%;
+  font-weight: 700;
+  font-size: 14px;
   border-radius: 5px;
-  padding-top:1%;
-  padding-bottom:1%;
-  border-width: 2px;
-  padding-right:2px;
+  padding: 3% 20% 3% 20%;
 }
 .meet:hover{
   background-color: #61dafb;
   text-decoration: none;
   color:#0a1a39;
   border-color: #0a1a39;
-  transition: background-color .2s ease-in-out;
+  transition: background-color .3s ease-in-out;
 }
 
 .bgbox{

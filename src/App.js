@@ -4,8 +4,9 @@ import HomePage from './pages/homePage';
 import Navbar from './components/navbar';
 import FaqPage from './pages/faqPage';
 import NavPage from './pages/navigatepage';
-import facultyPage from './pages/facultyPage';
 import Footer from './components/footer';
+import FacultyPage from './pages/facultyPage';
+import ResourcesPage from './pages/resources';
 
 function App() {
   return (
@@ -20,10 +21,13 @@ function App() {
             <NavPage/>
           </Route>
           <Route exact path="/faculty">
-            <facultyPage/>
+            <FacultyPage/>
           </Route>
           <Route exact path="/faq">
             <FaqPage/>
+          </Route>
+          <Route exact path="/resources">
+            <ResourcesPage/>
           </Route>
         </Switch>
       </div>

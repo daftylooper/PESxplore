@@ -10,7 +10,7 @@ function FacSlide(props){
                         <div style={{fontWeight: "800"}}>{props.subject}</div>
                         <div style={{fontSize: "14px"}}>{props.teacher}</div>
                     </div>
-                    <div><button class="more-but" style={{width: "50px", height: "30px", background:"white", borderRadius: "10px", border: "none"}}>More!</button></div>
+                    <div><a href={props.link}><button class="more-but" style={{width: "50px", height: "30px", background:"white", borderRadius: "10px", border: "none"}}>More!</button></a></div>
                 </div>
             </div>
         </div>
